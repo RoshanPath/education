@@ -6,7 +6,7 @@ const sticky = 50;
 console.log(sticky);
 
 window.addEventListener('scroll', () => {
-  console.clear();
+  // console.clear();
     console.log(window.pageYOffset);
 
     if(window.pageYOffset > sticky) {

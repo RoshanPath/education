@@ -14,7 +14,7 @@ document.write(`<!DOCTYPE html>
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="CSS/flaticon_xoft.css" />
+    <link rel="stylesheet" href="COMMON/flaticon_xoft.css" />
     <link
       rel="stylesheet"
       href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css"
