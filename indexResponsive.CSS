@@ -1,0 +1,453 @@
+@media screen and (max-width: 1050px) and (min-width: 800px){
+
+    .background-container{
+        padding: 20px;
+        height: auto;
+        /* border: 1px solid black; */
+    }
+    .logo{
+        width: 20%;
+    }
+    .links-btn{
+        width: 46%;
+    }
+    .links-tag{
+        font-size: 1rem;
+    }
+    .cart-button{
+        width: 34%;
+    }
+    .Contact-Us{
+        width: 50%;
+        font-size: 1rem;
+    }
+    .hero-section {
+        width: 100%;
+        height: auto;
+    }
+    #text-box{
+        width: 70%;
+        float:none;
+        margin: auto;
+        height: auto;
+        padding-top: 20px;
+    }
+    #hero-image-box {
+        margin: auto;
+        height: auto;
+        float: none;
+        width: 80%;
+    }
+    .item2-row{
+        height: auto;
+    }
+    .item2 {
+        width: 80%;
+        float: none;
+        margin: auto;
+        height: 108vh;
+    }
+    .Check-Out-Educate-container{
+        height: auto;
+        border: 1px solid;
+        /* border: 0.5px solid black; */
+    }
+    .Check-Out-Educate-heading-div {
+        width: 100%;
+        height: auto;
+        /* border: 0.5px solid black; */
+    }
+    .Check-Out-Educate-heading-box {
+        float: left;
+        width: 60%;
+        height: auto;
+        font-size: 2.2rem;
+        /* border: 0.5px solid black; */
+    }
+    .Check-Out-Educate-btn-box{
+        width: 35%;
+        height: auto;
+        padding: 0px;
+    }
+    .load-more{
+        width: 76%;
+        font-size: 0.85rem;
+    }
+    .container-row{
+        width: 96%;
+    }
+    .item-3 {
+        width: 42%;
+        margin: 4%;
+        height: auto;
+    }
+    .item-3-image-box{
+        height: auto;
+    }
+    .course-lesson,.course-lecture,.course-student {
+        padding: 2px 0px;
+    }
+    .price1 {
+        width: 36%;
+    }
+    .onlineclassroom-row {
+        width: 100%;
+        height: 200vh;
+        padding: 20px;
+    }
+    .onlineclassroom-imagebox1,
+    .onlineclassroom-imagebox2,
+    .onlineclassroom-imagebox3{
+       display: none;
+    }
+    .onlineclassroom-main-box {
+        width: 95%;
+        height: auto;
+        top: 50px;
+        left: 20px;
+    }
+    #onlineclassroom-textbox{
+        width: 90%;
+        float: none;
+        height: 80vh;
+        margin: auto;
+        border: 1px solid;
+    }
+    #onlineclassroom-imageboxbox4 {
+        width: 80%;
+        margin: auto;
+        float: none;
+        height: auto;
+    }
+    .onlineclassroom-imageboxbox4-image {
+        width: 80%;
+    }
+    .onlineclassroom-imageboxbox4-image img{
+        height: 100%;
+    }
+    #histudy-container {
+        padding-top: 50px;
+    }
+    .histudy-big-heading {
+        width: 76%;
+        margin: auto;
+        font-size: 2.4rem;
+    }
+    .medical-exam-box {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .item-4 {
+        width: 44%;
+        height: auto;
+        margin: 3%;
+        padding: 20px 0px;
+    }
+    .iten-4-imagebox{
+        height: auto;
+        padding: 20px 0px;
+    }
+    .roundimage-div{
+        height: auto;
+    }
+    .joinoursession-contactbox {
+        width: 80%;
+        left: 5%;
+    }
+    .join-sessioin-text {
+        font-size: 1.5rem;
+    }
+    .enroll-text {
+        font-size: 2.4rem;
+    }
+    .number-text {
+        font-size: 2.4rem;
+    }
+    .slider-container {
+        height: auto;
+    }
+    .girl-image-box {
+        float: none;
+        height: 100vh;
+        width: 74%;
+        margin: auto;
+    }
+    .girl-image {
+        width: 80%;
+        height: 90vh;
+        margin-top: 6px;
+    }
+    .girl-triangle-image {
+        margin-top: 26vh;
+        margin-right: 7%;
+        width: 28%;
+    }
+    .slider-box {
+        position: absolute;
+        top: 62%;
+        right: 10%;
+        width: 80%;
+        height: 55vh;
+        border-radius: 10px;
+    }
+    .slider-image-box {
+        margin-top: 12px;
+    }
+    .container-image-row{
+        height: 160vh;
+    }
+    .teachers-big-heading {
+        font-size: 2.5rem;
+    }
+    .teachers-image-row {
+        height: 138vh;
+        margin: -300px auto 0px auto;
+    }
+    .teachers-image-box {
+        margin-left: 8%;
+        width: 40%;
+    }
+    .bg-color{
+        width: 45% !important;
+        margin: 2%;
+    }
+    .footer-item4 {
+        width: 48%;
+        height: auto;
+    }
+    .gallery-images {
+        width: 24%;
+        margin: 2.5%;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) and (min-width: 600px){
+    .navbar{
+        height: 13vh;
+    }
+    .logo {
+        width: 30%;
+    }
+    .links-btn {
+       display: none !important;
+    }
+    .cart-button{
+        width: 62%;
+        justify-content: flex-end;
+        gap: 25px;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .background-container {
+        height: auto;
+    }
+    .hero-section {
+        width: 100%;
+        height: auto;
+    }
+    #text-box {
+        width: 100%;
+        float: none;
+        height:fit-content;
+        padding-top: 10px;
+    }
+    .bigtext h1{
+        font-size: 2.4rem;
+    }
+#hero-image-box {
+    width: 88%;
+    float: none;
+    margin: auto;
+    height: auto;
+}
+.item2-row{
+    height: auto;
+}
+.item2 {
+    margin: auto;
+    width: 80%;
+    height: 90vh;
+    float: none;
+}
+.arc-image-1,
+.orange-dot-image-2{
+    display: none;
+}
+.about-main-image-3 {
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+.Check-Out-Educate-container{
+    height: auto;
+}
+.container-row{
+    width: 90%;
+}
+.Check-Out-Educate-heading-div{
+    padding-left: 0px;
+    height: 10vh;
+}
+.Check-Out-Educate-heading-box{
+    width: 55%;
+    height: auto;
+    font-size: 1.6rem;
+}
+.Check-Out-Educate-btn-box {
+    width: 41%;
+    height: 10vh;
+}
+.load-more {
+    width: 100%;
+    align-items: normal;
+}
+.item-3 {
+    margin: 2% 16%;
+    height: auto;
+    width: 66%;
+}
+.item-3-image-box {
+    height:auto;
+}
+.onlineclassroom-row {
+    width: 100%;
+    height: 188vh;
+    padding: 10px 30px;
+}
+.onlineclassroom-imagebox1,
+.onlineclassroom-imagebox2,
+.onlineclassroom-imagebox3{
+    display: none;
+}
+.onlineclassroom-main-box{
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 188vh;
+    border: 0.5px solid black;
+}
+#onlineclassroom-textbox{
+    width: 100%;
+    height: 90vh;
+    float: none;
+    margin: auto;
+    border: 0.5px solid black;
+}
+#onlineclassroom-imageboxbox4 {
+    width: 100%;
+    height: 90vh;
+}
+.onlineclassroom-imageboxbox4-image {
+    width: 68%;
+}
+#histudy-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.histudy-heading-contianer {
+    height: auto;
+}
+.histudy-big-heading {
+    width: 80%;
+    height: auto;
+    font-size: 1.8rem;
+}
+.histudy-image-row{
+    height: auto;
+}
+.item-4 {
+    width: 50%;
+    margin-top: 2vh;
+    height: auto;
+}
+.iten-4-imagebox {
+    width: 94%;
+    height: auto;
+    padding: 10px 0px 20px 0px;
+}
+.roundimage-div {
+    height: auto;
+}
+.best-coaching{
+    font-size: 1.4rem;
+}
+.item-4-smalltext {
+    font-size: 1rem;
+    padding-top: 8px;
+}
+.joinoursession-contactbox {
+    width: 90%;
+    top: 6vh;
+}
+.joinoursession-image1{
+    width: 38%;
+    top: 0px;
+}
+.join-sessioin-text {
+    font-size: 1.4rem;
+}.joinoursession-container,
+.joinoursession-bg-layer{
+    height: 40vh;
+}
+.enroll-text,
+.number-text{
+    font-size: 2.1rem;
+}
+.annual-exam-preaparation {
+    padding-top: 6vh;
+}
+.medical-exam-box {
+    width: 100%;
+    padding-top: 2vh;
+}
+
+.medical-exam-heading {
+    font-size: 2rem;
+}
+.girl-image-box,
+.girl-triangle-image {
+    display: none;
+}
+.slider-container{
+    height: 62vh;
+}
+.slider-box {
+    top: 10%;
+    width: 90%;
+    right: 5%;
+}
+.slider-text {
+    font-size: 0.90rem;
+    line-height: 1.6;
+}
+.slider-round-div {
+    width: 26%;
+}
+.teachers-container {
+    padding-top: 30px;
+    height: 60vh;
+}
+.teachers-big-heading {
+    font-size: 2rem;
+}
+.teachers-image-box {
+    width: 44%;
+    float: left;
+    margin: 1% 3%;
+}
+.teachers-image-row {
+    height: 138vh;
+    margin: -235px auto 0px auto;
+}
+.footer-item4 {
+    width: 48%;
+    height: auto;
+}
+.gallery-images {
+    width: 24%;
+    margin: 2.5%;
+}
+}
