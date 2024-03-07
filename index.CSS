@@ -115,7 +115,7 @@
     left: 0;
     position: absolute;
     z-index: 10;
-    min-width:300px;
+    min-width:220px;
     height: 150vh;
     background-color:rgb(14,42,70);
   }
@@ -354,7 +354,7 @@
 
 .top-course-div {
     width: 98%;
-    height: 4vh;
+    /* height: 4vh; */
     margin: auto;
     display: flex;
     justify-content: flex-start;
@@ -371,7 +371,6 @@
 
 .top-course-image img {
     width: 100%;
-    height: 100%;
 }
 
 .top-course-text {
@@ -434,7 +433,9 @@
     float: left;
     width: 30%;
     margin: 1% 1.6%;
-    height: 72vh;
+    /* height: 72vh; */
+    display: flex;
+    flex-direction: column;
     background-color: #ffffff;
     border-radius: 6px;
     border: 20px solid #ffffff;
@@ -444,14 +445,13 @@
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 34vh;
+    /* height: 34vh; */
     border-radius: 6px;
     /* border:0.5px solid black; */
 }
 
 .image {
     width: 100%;
-    height: 100%;
     border-radius: 6px;
 }
 
@@ -488,7 +488,6 @@
 
 .course-details-box {
     width: 100%;
-    height: 8vh;
     padding: 10px 0px;
     border-bottom: 0.3px dashed black;
     /* border: 0.5px solid black; */
@@ -497,7 +496,6 @@
 .course-lesson {
     float: left;
     width: 33%;
-    height: 4vh;
     padding: 5px;
     color: #989F9D;
     /* border: 0.5px solid black; */
@@ -506,7 +504,6 @@
 .course-lecture {
     float: left;
     width: 33%;
-    height: 4vh;
     padding: 5px;
     color: #989F9D;
     /* border: 0.5px solid black; */
@@ -515,7 +512,6 @@
 .course-student {
     float: left;
     width: 33%;
-    height: 4vh;
     padding: 5px;
     color: #989F9D;
     /* border: 0.5px solid black; */
@@ -525,7 +521,6 @@
     display: flex;
     align-items: center;
     width: 100%;
-    height: 6vh;
     margin-top: 2px;
     /* border: 0.5px solid black; */
 }
@@ -551,9 +546,7 @@
 
 .price-cart-div {
     width: 100%;
-    height: 8vh;
     display: flex;
-    align-items: center;
     /* border: 0.5px solid black; */
 }
 
@@ -562,7 +555,6 @@
     justify-content: flex-start;
     align-items: center;
     width: 50%;
-    height: 6vh;
     /* border: 0.5px solid black;  */
 }
 
@@ -570,7 +562,6 @@
     font-size: 1.7rem;
     font-weight: 600;
     width: 30%;
-    height: 6vh;
     /* border: 0.5px solid black;  */
 }
 
@@ -578,14 +569,12 @@
     font-size: 1.7rem;
     font-weight: 600;
     width: 34%;
-    height: 6vh;
     color: #404442;
     /* border: 0.5px solid black;  */
 }
 
 .cart-div {
     width: 50%;
-    height: 6vh;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -593,9 +582,7 @@
 }
 
 .Add-to-cart {
-    height: 5vh;
     font-size: 0.90rem;
-    line-height: 2rem;
     color: #989F9D;
     width: 60%;
 }
@@ -1166,7 +1153,6 @@ img {
 
 .teachers-images img {
     border-radius: 6px;
-    height: 100%;
 }
 
 .teachers-images img:hover {
