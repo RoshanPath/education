@@ -77,6 +77,11 @@
     border: none;
     cursor: pointer;
 }
+.Contact-Us:hover{
+    background-color: #F2A227;  
+    color: #ffff;
+    transition: all 1s;
+}
 .menu-btn {
     display: none;
     position: relative;
@@ -182,7 +187,7 @@
 }
 
 .bigtext {
-    font-size: 1.5rem;
+    font-size: 2.6rem;
     color: #ffffff;
     font-weight: 700;
     padding-top: 20px;
@@ -219,6 +224,11 @@
     cursor: pointer;
     /* border: 0.5px solid black; */
 }
+.course-btn:hover{
+    background-color: #F2A227;  
+    color: #ffff;
+    transition: all 1s;
+}
 
 .happy-course {
     display: inline-block;
@@ -247,8 +257,6 @@
 #hero-image-box {
     width: 50%;
     float: left;
-    /* height: 98vh; */
-    /* border: 0.5px solid black; */
 }
 
 .image-box {
@@ -286,8 +294,17 @@
     width: 50px;
     height: 50px;
     float: right;
+    animation: rotate2 1s alternate-reverse infinite;
 }
 
+@keyframes rotate2 {
+    0%{
+        transform: rotateY(0);
+    }
+    0%{
+        transform: rotateY(180deg);
+    }
+}
 .orange-dot-image-2 {
     position: absolute;
     bottom: 50px;
@@ -298,6 +315,15 @@
 
 .orange-dot-image-2 img {
     width: 100%;
+    animation: rotate 15s linear infinite;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0);
+    }
+    0%{
+        transform: rotate(-360deg);
+    }
 }
 
 .about-main-image-3 {
@@ -319,22 +345,57 @@
     height: 100%;
 }
 
-#about-text-box {
-    position: relative;
-}
 
 .triangle-image {
+    float:inline-end;
     width: 300px;
     height: 200px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    /* border: 0.5px solid black; */
 }
 
 .triangle-image img {
     width: 100%;
     height: 100%;
+}
+#about-text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+
+
+}
+.about-course-div{
+    width: 90% !important;
+    color: #116E63;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.about-text-heading{
+width: 90% !important;
+font-size: 2.6rem !important;
+padding: 0px !important;
+}
+.about-text-small-para{
+    width: 90% !important;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.double-para{
+    display: flex;
+    width: 96% !important;
+}
+.our-mission{
+    color: #0E2A46;
+    padding: 10px 0px;
+}
+.double-para-text{
+    font-size: rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0E2A46;
+   width: 40%;
+   padding: 20px;
+   text-align: justify;
 }
 
 .Check-Out-Educate-container {
@@ -393,7 +454,6 @@
     font-size: 3rem;
     font-weight: 600;
     color: #0E2A46;
-    height: 20vh;
     padding-top: 16px;
     margin: 0% 1%;
     /* border: 0.5px solid black; */
@@ -595,6 +655,11 @@
     overflow: hidden;
     /* border: 0.5px solid black; */
 }
+.progress-bar{
+    width: 100%;
+    height: 6vh;
+    border: 1px solid;
+}
 
 .onlineclassroom-imagebox1 {
     width: 54%;
@@ -635,6 +700,9 @@ img {
 }
 
 #onlineclassroom-textbox {
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
     width: 50%;
     float: left;
     height: 110vh;
@@ -655,6 +723,7 @@ img {
     /* border: 0.5px solid black; */
 
 }
+
 
 /* HISTUDY CONTAINER START */
 
@@ -784,7 +853,11 @@ img {
     color: #ffffff;
     cursor: pointer;
 }
-
+.veiw-details:hover{
+    background-color: #F2A227;  
+    color: #ffff;
+    transition: all 1s;
+}
 .joinoursession-container {
     position: relative;
     overflow: hidden;
@@ -1269,6 +1342,11 @@ img {
     background-color: #116E63;
     border: none;
     border-radius: 6px;
+}
+.item-read-more:hover{
+    background-color: #0E2A46;
+    transition: all 1s;
+    cursor: pointer;
 }
 .item-read-more i{
     font-size: 1.2rem;

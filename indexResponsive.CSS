@@ -49,7 +49,6 @@
     }
     .Check-Out-Educate-container{
         height: auto;
-        border: 1px solid;
         /* border: 0.5px solid black; */
     }
     .Check-Out-Educate-heading-div {
@@ -111,7 +110,6 @@
         float: none;
         height: 80vh;
         margin: auto;
-        border: 1px solid;
     }
     #onlineclassroom-imageboxbox4 {
         width: 80%;
@@ -299,18 +297,38 @@
 .Check-Out-Educate-btn-box {
     width: 41%;
     height: 10vh;
+    padding-right: 0px;
 }
 .load-more {
-    width: 100%;
+    width: 60%;
     align-items: normal;
 }
 .item-3 {
-    margin: 2% 16%;
+    margin-top: 2%;
     height: auto;
-    width: 66%;
+    width: 46%;
 }
 .item-3-image-box {
     height:auto;
+}
+.item-3-text-first-row{
+   margin-top: 10px;
+}
+.date-text, .comments-text {
+    margin-left: 2%;
+}
+.item-3-text-second-row {
+    padding:10px 2px;
+}
+.iten-3-read-more-btn{
+    padding: 0px;
+}
+.item-read-more i {
+    font-size: 1rem;
+}
+.item-read-more {
+    font-size: 0.90rem;
+    width: 40%;
 }
 .onlineclassroom-row {
     width: 100%;
@@ -319,7 +337,8 @@
 }
 .onlineclassroom-imagebox1,
 .onlineclassroom-imagebox2,
-.onlineclassroom-imagebox3{
+.onlineclassroom-imagebox3,
+.triangle-image img{
     display: none;
 }
 .onlineclassroom-main-box{
@@ -482,12 +501,6 @@
         padding-left: 20px;
         padding-top: 14px;
     }
-    .bigtext{
-        font-size: 0.90rem;
-    }
-    .small-text {
-        font-size: 0.90rem;
-    }
     .find-the-course {
         width: 90%;
         align-items: flex-start;
@@ -538,6 +551,21 @@
         top: 0px;
         left: 0px;
     }
+    .about-text-heading {
+        width: 90% !important;
+        font-size: 2rem !important;
+    }
+    .about-text-small-para {
+        width: 90% !important;
+        font-size: 1rem;
+    }
+    .double-para-text {
+        font-size: 0.90rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #0E2A46;
+        width: 46%;
+        padding: 10px;
+    }
     .Check-Out-Educate-container{
         height: fit-content;
         padding: 20px 0px;
@@ -577,13 +605,15 @@
     .container-image-row{
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         height: auto;
     }
     .item-3 {
         float: none;
         padding: 10px 0px;
-        width: 46%;
-        border: 8px solid #fff;
+        width: 78%;
+        border: 18px solid #fff;
+        margin: 4% 0%;
 
     }
     .bg-color{
@@ -595,26 +625,26 @@
     } */
     .item-3-rating-box{
         height: auto;
-        font-size: 0.60rem;
+        font-size: 0.90rem;
         padding: 5px 0px;
     }
     .course-name-box {
         width: 100%;
-        font-size: 0.65rem;
+        font-size: 1.1rem;
     }
     .course-details-box{
         display: flex;
         height: auto;
         padding: 4px 0px;
-        /* row-gap: 5px; */
+        row-gap: 5px;
     }
     .course-lecture{
         display: none;
     }
     .course-lesson,
     .course-student {
-        font-size: 0.70rem;
-        width: 50%;
+        font-size: 1rem;
+        width: 40%;
         float: none;
         display: flex;
         justify-content:flex-start;
@@ -624,7 +654,7 @@
         height: 40px;
     }
     .devloper-name {
-        font-size: 0.65rem;
+        font-size: 0.90rem;
     }
     .price-div{
         width: 30%;
@@ -633,18 +663,19 @@
         display: none;
     }
     .price2 {
-        font-size: 1rem;
+        font-size: 1.4rem;
         font-weight: 600;
+        padding: 6px 0px;
         width: 100%;
     }
     .cart-div {
         width: 88%;
     }
     .Add-to-cart {
-        font-size: 0.70rem;
+        font-size: 1rem;
     }
     .onlineclassroom-row{
-        padding: 10px 0px;
+      display: none;
     }
     .onlineclassroom-imagebox1,
     .onlineclassroom-imagebox2,
@@ -660,7 +691,7 @@
     #onlineclassroom-imageboxbox4{
         width: 100%;
         float: none;
-        height: 50vh;
+        height: 80vh;
     }
     #histudy-container {
         padding-top: 40px;
@@ -693,7 +724,7 @@
         margin-top: 2vh;
     }
     .iten-4-imagebox {
-        width: 80%;
+        width: 90%;
         height: auto;
         padding: 18px 0px;
     }
@@ -885,19 +916,19 @@
     font-size: 0.80rem;
 }
 .date-text, .comments-text {
-    margin-left: 2%;
+    margin-left: 3%;
     color: #697171;
-    font-size: .65rem;
+    font-size: .90rem;
 }
 .item-3-text-second-row {
     padding: 3%;
     color: #0E2A46;
-    font-size: 0.60rem;
+    font-size: 0.90rem;
 }
 .item-read-more{
-    font-size: 0.60rem;
+    font-size: 0.90rem;
     width: 50%;
-    height: 4vh;
+    height: 6vh;
 }
 .iten-3-read-more-btn {
     padding-left: 3%;
@@ -909,16 +940,16 @@
     padding: 0%;
 }
 .footer-item4 {
-    width: 49%;
+    width: 80%;
     padding: 5px;
     height: auto;
-    padding: 10px 5px;
+    padding: 20px 5px;
 }
 .footer-item4-logo {
     width: 78%;
 }
 .footer-item4-address{
-    font-size: 0.90rem;
+    font-size: 0.80rem;
     padding: 10px 0px;
 }
 .footer-item4-icon {
@@ -941,7 +972,7 @@
 .our-services-links {
     list-style: none;
     padding: 6px 0px;
-    font-size: 0.90rem;
+    font-size: 0.80rem;
 }
 .gallery-images {
     width: 27%;
